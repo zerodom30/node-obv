@@ -1,0 +1,22 @@
+{
+  "name": "node-obv",
+  "version": "1.0.0",
+  "description": "On Balance Volume Calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha test/* && nyc report --reporter=html"
+  },
+  "keywords": [
+    "On",
+    "Balance",
+    "Volume",
+    "Indicator"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "decimal.js": "^10.0.1",
+    "mocha": "^5.2.0",
+    "nyc": "^13.0.1"
+  }
+}
